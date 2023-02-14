@@ -5,7 +5,7 @@ import { Delete } from "./TodoSlice";
 
 
 function Todo({ el }) {
-    let dispatch = useDispatch
+    let dispatch = useDispatch()
     return (
       <div>
         <h3> {el.task}</h3>

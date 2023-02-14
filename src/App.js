@@ -24,7 +24,7 @@ export default App;
 import "./App.css";
 import { useSelector } from 'react-redux';
 import TodoList from './Components/TodoList';
-import Addtodo from "./Components/Addtodo";
+import AddTodos from "./Components/Addtodo";
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
     <div classname = "App">
       <h2> TodoList</h2>
       <hr/>
-      <Addtodo/>
+      <AddTodos/>
       <TodoList todos ={todos} />
     </div>
   );

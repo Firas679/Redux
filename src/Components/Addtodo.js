@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap";
 import { useDispatch } from 'react-redux';
 
 
-const AddTodo = () => {
+const AddTodos = () => {
   let dispatch = useDispatch();
   let [todo,setTodo] = useState('')
   const Added = ()=> {
@@ -21,6 +21,6 @@ const AddTodo = () => {
     </div>
   )
 }
-export default AddTodo
+export default AddTodos
 
 
